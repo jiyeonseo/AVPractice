@@ -30,6 +30,8 @@
 		3AFB9C93162E755600052CEC /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB9C91162E755500052CEC /* HelpViewController.xib */; };
 		3AFB9C97162E756400052CEC /* CompanyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB9C95162E756400052CEC /* CompanyListViewController.m */; };
 		3AFB9C98162E756400052CEC /* CompanyListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB9C96162E756400052CEC /* CompanyListViewController.xib */; };
+		3AFB9C9C162E8DC100052CEC /* InquiryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB9C9A162E8DC100052CEC /* InquiryViewController.m */; };
+		3AFB9C9D162E8DC100052CEC /* InquiryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB9C9B162E8DC100052CEC /* InquiryViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,9 @@
 		3AFB9C94162E756400052CEC /* CompanyListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyListViewController.h; sourceTree = "<group>"; };
 		3AFB9C95162E756400052CEC /* CompanyListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyListViewController.m; sourceTree = "<group>"; };
 		3AFB9C96162E756400052CEC /* CompanyListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompanyListViewController.xib; sourceTree = "<group>"; };
+		3AFB9C99162E8DC000052CEC /* InquiryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InquiryViewController.h; sourceTree = "<group>"; };
+		3AFB9C9A162E8DC100052CEC /* InquiryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InquiryViewController.m; sourceTree = "<group>"; };
+		3AFB9C9B162E8DC100052CEC /* InquiryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InquiryViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +170,9 @@
 				3AFB9C94162E756400052CEC /* CompanyListViewController.h */,
 				3AFB9C95162E756400052CEC /* CompanyListViewController.m */,
 				3AFB9C96162E756400052CEC /* CompanyListViewController.xib */,
+				3AFB9C99162E8DC000052CEC /* InquiryViewController.h */,
+				3AFB9C9A162E8DC100052CEC /* InquiryViewController.m */,
+				3AFB9C9B162E8DC100052CEC /* InquiryViewController.xib */,
 			);
 			name = Preference;
 			sourceTree = "<group>";
@@ -233,6 +241,7 @@
 				3AFB9C8E162E754700052CEC /* NoticesViewController.xib in Resources */,
 				3AFB9C93162E755600052CEC /* HelpViewController.xib in Resources */,
 				3AFB9C98162E756400052CEC /* CompanyListViewController.xib in Resources */,
+				3AFB9C9D162E8DC100052CEC /* InquiryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +260,7 @@
 				3AFB9C8D162E754700052CEC /* NoticesViewController.m in Sources */,
 				3AFB9C92162E755600052CEC /* HelpViewController.m in Sources */,
 				3AFB9C97162E756400052CEC /* CompanyListViewController.m in Sources */,
+				3AFB9C9C162E8DC100052CEC /* InquiryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

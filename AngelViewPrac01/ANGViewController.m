@@ -11,6 +11,7 @@
 #import "HelpViewController.h"
 #import "CompanyListViewController.h"
 #import "DropOutViewController.h"
+#import "InquiryViewController.h"
 
 @interface ANGViewController ()
 {
@@ -87,7 +88,7 @@
         [self.navigationController pushViewController:viewController animated:YES];
         
     }else if([indexPath row] == 2){ //문의하기
-        NoticesViewController *viewController = [[NoticesViewController alloc]initWithNibName:@"NoticesViewController" bundle:[NSBundle mainBundle]];
+        InquiryViewController *viewController = [[InquiryViewController alloc]initWithNibName:@"InquiryViewController" bundle:[NSBundle mainBundle]];
         [self.navigationController pushViewController:viewController animated:YES];
         
     }else if([indexPath row] == 3){ ///알림설정
