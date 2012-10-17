@@ -32,6 +32,8 @@
 		3AFB9C98162E756400052CEC /* CompanyListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB9C96162E756400052CEC /* CompanyListViewController.xib */; };
 		3AFB9C9C162E8DC100052CEC /* InquiryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB9C9A162E8DC100052CEC /* InquiryViewController.m */; };
 		3AFB9C9D162E8DC100052CEC /* InquiryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB9C9B162E8DC100052CEC /* InquiryViewController.xib */; };
+		3AFB9CA2162E99D100052CEC /* CompanyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB9CA1162E99D100052CEC /* CompanyTableViewCell.xib */; };
+		3AFB9CA5162E9AB200052CEC /* CompanyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB9CA4162E9AB100052CEC /* CompanyTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +73,9 @@
 		3AFB9C99162E8DC000052CEC /* InquiryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InquiryViewController.h; sourceTree = "<group>"; };
 		3AFB9C9A162E8DC100052CEC /* InquiryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InquiryViewController.m; sourceTree = "<group>"; };
 		3AFB9C9B162E8DC100052CEC /* InquiryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InquiryViewController.xib; sourceTree = "<group>"; };
+		3AFB9CA1162E99D100052CEC /* CompanyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompanyTableViewCell.xib; sourceTree = "<group>"; };
+		3AFB9CA3162E9AB100052CEC /* CompanyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyTableViewCell.h; sourceTree = "<group>"; };
+		3AFB9CA4162E9AB100052CEC /* CompanyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +175,9 @@
 				3AFB9C94162E756400052CEC /* CompanyListViewController.h */,
 				3AFB9C95162E756400052CEC /* CompanyListViewController.m */,
 				3AFB9C96162E756400052CEC /* CompanyListViewController.xib */,
+				3AFB9CA3162E9AB100052CEC /* CompanyTableViewCell.h */,
+				3AFB9CA4162E9AB100052CEC /* CompanyTableViewCell.m */,
+				3AFB9CA1162E99D100052CEC /* CompanyTableViewCell.xib */,
 				3AFB9C99162E8DC000052CEC /* InquiryViewController.h */,
 				3AFB9C9A162E8DC100052CEC /* InquiryViewController.m */,
 				3AFB9C9B162E8DC100052CEC /* InquiryViewController.xib */,
@@ -242,6 +250,7 @@
 				3AFB9C93162E755600052CEC /* HelpViewController.xib in Resources */,
 				3AFB9C98162E756400052CEC /* CompanyListViewController.xib in Resources */,
 				3AFB9C9D162E8DC100052CEC /* InquiryViewController.xib in Resources */,
+				3AFB9CA2162E99D100052CEC /* CompanyTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +270,7 @@
 				3AFB9C92162E755600052CEC /* HelpViewController.m in Sources */,
 				3AFB9C97162E756400052CEC /* CompanyListViewController.m in Sources */,
 				3AFB9C9C162E8DC100052CEC /* InquiryViewController.m in Sources */,
+				3AFB9CA5162E9AB200052CEC /* CompanyTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

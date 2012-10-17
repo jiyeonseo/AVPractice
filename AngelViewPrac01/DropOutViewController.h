@@ -8,5 +8,7 @@
 #import <UIKit/UIKit.h>
 
 @interface DropOutViewController : UIViewController
+- (IBAction)clickDropOut:(id)sender;
+- (IBAction)clickCancel:(id)sender;
 
 @end

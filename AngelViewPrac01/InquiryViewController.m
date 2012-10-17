@@ -33,4 +33,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)clickRegister:(id)sender {
+}
+
+- (IBAction)clickCancel:(id)sender {
+}
 @end

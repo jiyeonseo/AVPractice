@@ -34,4 +34,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+/** @brief 탈퇴 버튼 클릭 액션
+ @remark 이때 사용자의 모든 정보를 삭제해야한다. 
+*/
+- (IBAction)clickDropOut:(id)sender {
+}
+/// 취소 버튼 클릭 액션
+- (IBAction)clickCancel:(id)sender {
+}
 @end

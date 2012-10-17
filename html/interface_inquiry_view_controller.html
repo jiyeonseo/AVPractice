@@ -1,0 +1,409 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>AngelViewPrac01: InquiryViewController 클래스 참조</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">AngelViewPrac01
+   &#160;<span id="projectnumber">0.0.1</span>
+   </div>
+   <div id="projectbrief">it&#39;s a prototype sample for Angelview</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 다음에 의해 생성됨 :  Doxygen 1.8.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'검색');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>메인&#160;페이지</span></a></li>
+      <li class="current"><a href="annotated.html"><span>클래스</span></a></li>
+      <li><a href="files.html"><span>파일들</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="검색" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>클래스&#160;목록</span></a></li>
+      <li><a href="classes.html"><span>클래스&#160;색인</span></a></li>
+      <li><a href="hierarchy.html"><span>클래스&#160;계통도</span></a></li>
+      <li><a href="functions.html"><span>클래스&#160;멤버</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interface_inquiry_view_controller.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>모두</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>클래스</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>파일들</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>함수</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>변수</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>속성</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>페이지들</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
+<a href="#pro-attribs">Protected 속성</a> &#124;
+<a href="#properties">속성</a> &#124;
+<a href="class_inquiry_view_controller-members.html">모든 멤버 목록</a>  </div>
+  <div class="headertitle">
+<div class="title">InquiryViewController 클래스 참조</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#import &lt;<a class="el" href="_inquiry_view_controller_8h_source.html">InquiryViewController.h</a>&gt;</code></p>
+<div class="dynheader">
+InquiryViewController에 대한 상속 다이어그램 : </div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="interface_inquiry_view_controller.png" usemap="#InquiryViewController_map" alt=""/>
+  <map id="InquiryViewController_map" name="InquiryViewController_map">
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:aff05da6d1bc4797d6e7c549452af15e1"><td class="memItemLeft" align="right" valign="top">(IBAction)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_inquiry_view_controller.html#aff05da6d1bc4797d6e7c549452af15e1">clickRegister:</a></td></tr>
+<tr class="memdesc:aff05da6d1bc4797d6e7c549452af15e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">등록 버튼 클릭 액션.  <a href="#aff05da6d1bc4797d6e7c549452af15e1"></a><br/></td></tr>
+<tr class="separator:aff05da6d1bc4797d6e7c549452af15e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a266f32e3a474be9a139739129eb68a2d"><td class="memItemLeft" align="right" valign="top">(IBAction)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_inquiry_view_controller.html#a266f32e3a474be9a139739129eb68a2d">clickCancel:</a></td></tr>
+<tr class="memdesc:a266f32e3a474be9a139739129eb68a2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">취소 버튼 클릭 액션.  <a href="#a266f32e3a474be9a139739129eb68a2d"></a><br/></td></tr>
+<tr class="separator:a266f32e3a474be9a139739129eb68a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 속성</h2></td></tr>
+<tr class="memitem:ad3daeab64598fd6d4df1f5da589642e4"><td class="memItemLeft" align="right" valign="top">UITextField *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_inquiry_view_controller.html#ad3daeab64598fd6d4df1f5da589642e4">emailTextField</a></td></tr>
+<tr class="memdesc:ad3daeab64598fd6d4df1f5da589642e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">[문의]이메일 입력창.  <a href="#ad3daeab64598fd6d4df1f5da589642e4"></a><br/></td></tr>
+<tr class="separator:ad3daeab64598fd6d4df1f5da589642e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb1e5fdf40f98c000d262db5ea7ee48d"><td class="memItemLeft" align="right" valign="top">UITextField *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_inquiry_view_controller.html#acb1e5fdf40f98c000d262db5ea7ee48d">titleTextField</a></td></tr>
+<tr class="memdesc:acb1e5fdf40f98c000d262db5ea7ee48d"><td class="mdescLeft">&#160;</td><td class="mdescRight">[문의]제목 입력창.  <a href="#acb1e5fdf40f98c000d262db5ea7ee48d"></a><br/></td></tr>
+<tr class="separator:acb1e5fdf40f98c000d262db5ea7ee48d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7d9aec6a8fdb10c37230902b82dc1ce"><td class="memItemLeft" align="right" valign="top">UITextView *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_inquiry_view_controller.html#af7d9aec6a8fdb10c37230902b82dc1ce">contentTextView</a></td></tr>
+<tr class="memdesc:af7d9aec6a8fdb10c37230902b82dc1ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">[문의]내용 입력창.  <a href="#af7d9aec6a8fdb10c37230902b82dc1ce"></a><br/></td></tr>
+<tr class="separator:af7d9aec6a8fdb10c37230902b82dc1ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42eb4e15e319fb2e8e217babe67f5869"><td class="memItemLeft" align="right" valign="top">UIButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_inquiry_view_controller.html#a42eb4e15e319fb2e8e217babe67f5869">cancelButton</a></td></tr>
+<tr class="memdesc:a42eb4e15e319fb2e8e217babe67f5869"><td class="mdescLeft">&#160;</td><td class="mdescRight">[문의]취소 버튼.  <a href="#a42eb4e15e319fb2e8e217babe67f5869"></a><br/></td></tr>
+<tr class="separator:a42eb4e15e319fb2e8e217babe67f5869"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a669c4ca434de4210c9b9b80a8f4c15b2"><td class="memItemLeft" align="right" valign="top">UIButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_inquiry_view_controller.html#a669c4ca434de4210c9b9b80a8f4c15b2">registerButton</a></td></tr>
+<tr class="memdesc:a669c4ca434de4210c9b9b80a8f4c15b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">[문의]등록 버튼.  <a href="#a669c4ca434de4210c9b9b80a8f4c15b2"></a><br/></td></tr>
+<tr class="separator:a669c4ca434de4210c9b9b80a8f4c15b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+속성</h2></td></tr>
+<tr class="memitem:ac18cdb83d791d25ba05f26cac6d4d13b"><td class="memItemLeft" align="right" valign="top">IBOutlet UITextField *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_inquiry_view_controller.html#ac18cdb83d791d25ba05f26cac6d4d13b">emailTextField</a></td></tr>
+<tr class="separator:ac18cdb83d791d25ba05f26cac6d4d13b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aceccb99d1701467c19d66e9dcaa35ca3"><td class="memItemLeft" align="right" valign="top">IBOutlet UITextField *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_inquiry_view_controller.html#aceccb99d1701467c19d66e9dcaa35ca3">titleTextField</a></td></tr>
+<tr class="separator:aceccb99d1701467c19d66e9dcaa35ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab36d3d34e936a3e97a87b736ae553dee"><td class="memItemLeft" align="right" valign="top">IBOutlet UITextView *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_inquiry_view_controller.html#ab36d3d34e936a3e97a87b736ae553dee">contentTextView</a></td></tr>
+<tr class="separator:ab36d3d34e936a3e97a87b736ae553dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">상세한 설명</h2>
+<div class="textblock">
+<p><a class="el" href="_inquiry_view_controller_8h_source.html">InquiryViewController.h</a> 파일의 <a class="el" href="_inquiry_view_controller_8h_source.html#l00010">10</a> 번째 라인에서 정의되었습니다.</p>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a266f32e3a474be9a139739129eb68a2d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBAction) clickCancel: </td>
+          <td></td>
+          <td class="paramtype">(id)&#160;</td>
+          <td class="paramname"><em>sender</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>취소 버튼 클릭 액션. </p>
+
+<p><a class="el" href="_inquiry_view_controller_8m_source.html">InquiryViewController.m</a> 파일의 <a class="el" href="_inquiry_view_controller_8m_source.html#l00039">39</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<a class="anchor" id="aff05da6d1bc4797d6e7c549452af15e1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBAction) clickRegister: </td>
+          <td></td>
+          <td class="paramtype">(id)&#160;</td>
+          <td class="paramname"><em>sender</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>등록 버튼 클릭 액션. </p>
+
+<p><a class="el" href="_inquiry_view_controller_8m_source.html">InquiryViewController.m</a> 파일의 <a class="el" href="_inquiry_view_controller_8m_source.html#l00036">36</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<h2 class="groupheader">멤버 데이타 문서화</h2>
+<a class="anchor" id="a42eb4e15e319fb2e8e217babe67f5869"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UIButton*) cancelButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[문의]취소 버튼. </p>
+
+<p><a class="el" href="_inquiry_view_controller_8h_source.html">InquiryViewController.h</a> 파일의 <a class="el" href="_inquiry_view_controller_8h_source.html#l00019">19</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<a class="anchor" id="af7d9aec6a8fdb10c37230902b82dc1ce"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UITextView*) contentTextView</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[문의]내용 입력창. </p>
+
+<p><a class="el" href="_inquiry_view_controller_8h_source.html">InquiryViewController.h</a> 파일의 <a class="el" href="_inquiry_view_controller_8h_source.html#l00017">17</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad3daeab64598fd6d4df1f5da589642e4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UITextField*) emailTextField</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[문의]이메일 입력창. </p>
+
+<p><a class="el" href="_inquiry_view_controller_8h_source.html">InquiryViewController.h</a> 파일의 <a class="el" href="_inquiry_view_controller_8h_source.html#l00013">13</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<a class="anchor" id="a669c4ca434de4210c9b9b80a8f4c15b2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UIButton*) registerButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[문의]등록 버튼. </p>
+
+<p><a class="el" href="_inquiry_view_controller_8h_source.html">InquiryViewController.h</a> 파일의 <a class="el" href="_inquiry_view_controller_8h_source.html#l00021">21</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<a class="anchor" id="acb1e5fdf40f98c000d262db5ea7ee48d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UITextField*) titleTextField</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[문의]제목 입력창. </p>
+
+<p><a class="el" href="_inquiry_view_controller_8h_source.html">InquiryViewController.h</a> 파일의 <a class="el" href="_inquiry_view_controller_8h_source.html#l00015">15</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<h2 class="groupheader">속성 문서화</h2>
+<a class="anchor" id="ab36d3d34e936a3e97a87b736ae553dee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UITextView*) contentTextView</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_inquiry_view_controller_8h_source.html">InquiryViewController.h</a> 파일의 <a class="el" href="_inquiry_view_controller_8h_source.html#l00025">25</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac18cdb83d791d25ba05f26cac6d4d13b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UITextField*) emailTextField</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_inquiry_view_controller_8h_source.html">InquiryViewController.h</a> 파일의 <a class="el" href="_inquiry_view_controller_8h_source.html#l00023">23</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<a class="anchor" id="aceccb99d1701467c19d66e9dcaa35ca3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UITextField*) titleTextField</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_inquiry_view_controller_8h_source.html">InquiryViewController.h</a> 파일의 <a class="el" href="_inquiry_view_controller_8h_source.html#l00024">24</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<hr/>이 클래스에 대한 문서화 페이지는 다음의 파일들로부터 생성되었습니다.:<ul>
+<li>AngelViewPrac01/<a class="el" href="_inquiry_view_controller_8h_source.html">InquiryViewController.h</a></li>
+<li>AngelViewPrac01/<a class="el" href="_inquiry_view_controller_8m_source.html">InquiryViewController.m</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="interface_inquiry_view_controller.html">InquiryViewController</a></li>
+    <li class="footer">생성시간 : 수 10월 17 2012 17:00:36, 프로젝트명 : AngelViewPrac01, 생성자 : 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
+  </ul>
+</div>
+</body>
+</html>

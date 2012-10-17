@@ -15,7 +15,9 @@
 
 @interface ANGViewController ()
 {
+    ///설정 제목 array.
     NSArray *titleArray;
+    ///설정 소제목 array
     NSArray *subtitleArray;
     // Dictionary로 하는게 나으려나? :( 
 }

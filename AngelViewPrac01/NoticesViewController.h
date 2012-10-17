@@ -6,7 +6,7 @@
  */
 
 #import <UIKit/UIKit.h>
-
-@interface NoticesViewController : UIViewController
+/// TableViewDataSource와 Delegate를 상속받는다. 
+@interface NoticesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end

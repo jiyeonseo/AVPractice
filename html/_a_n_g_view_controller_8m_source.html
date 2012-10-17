@@ -112,137 +112,138 @@ $(document).ready(function(){initNavTree('_a_n_g_view_controller_8m_source.html'
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_help_view_controller_8h.html" title="도움말 화면">HelpViewController.h</a>&quot;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_company_list_view_controller_8h.html" title="가입 기업 리스트 화면">CompanyListViewController.h</a>&quot;</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_drop_out_view_controller_8h.html" title="서비스 탈퇴 화면">DropOutViewController.h</a>&quot;</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="code" href="category_a_n_g_view_controller_07_08.html">   15</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_n_g_view_controller.html">ANGViewController</a> ()</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="code" href="category_a_n_g_view_controller_07_08.html#a4beaa9024992c43872fbff6d4921ba67">   17</a></span>&#160;    NSArray *<a class="code" href="category_a_n_g_view_controller_07_08.html#a4beaa9024992c43872fbff6d4921ba67">titleArray</a>;</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="code" href="category_a_n_g_view_controller_07_08.html#a42d00c0674f6da79e937bc8c844fdd20">   18</a></span>&#160;    NSArray *<a class="code" href="category_a_n_g_view_controller_07_08.html#a42d00c0674f6da79e937bc8c844fdd20">subtitleArray</a>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="comment">// Dictionary로 하는게 나으려나? :( </span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">@end</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">@implementation </span><a class="code" href="interface_a_n_g_view_controller.html">ANGViewController</a></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;- (void)viewDidLoad</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    [<span class="keyword">super</span> viewDidLoad];</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">//    self.navigationController.title = @&quot;설정&quot;;</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;     [<span class="keyword">self</span>. navigationController setTitle:@&quot;설정&quot;];</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    titleArray = [[NSArray alloc] initWithObjects:@&quot;공지사항&quot;,@&quot;도움말&quot;,@&quot;문의하기&quot;,@&quot;알림설정&quot;,@&quot;기업관리&quot;,@&quot;서비스 탈퇴하기&quot;, nil];</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    subtitleArray = [[NSArray alloc] initWithObjects:@&quot; 관련 공지사항 확인&quot;,</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                @&quot; 사용법 및 도움말 확인&quot;,</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                                @&quot;App 사용 불편사항 및 문의하기&quot;,</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                                @&quot; 사용법 및 도움말 확인&quot;,</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                                @&quot; 가입 기업 확인 및 관리&quot;,</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                                @&quot;가입된 개인정보를 지우고 서비스 탈퇴&quot;, nil];</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;- (void)didReceiveMemoryWarning</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;{</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    [<span class="keyword">super</span> didReceiveMemoryWarning];</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="comment">// Dispose of any resources that can be recreated.</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#pragma mark - TableViewDelegate</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor"></span>- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    NSLog(<span class="stringliteral">@&quot;numberofsection in tableview&quot;</span>);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    NSLog(<span class="stringliteral">@&quot;numberofrowsinsection : %d&quot;</span>, [titleArray count]);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">return</span> [titleArray count];</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keyword">static</span> NSString *CellIdentifier = <span class="stringliteral">@&quot;ANGTableViewCell&quot;</span>;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="interface_a_n_g_table_view_cell.html">ANGTableViewCell</a> *cell = (<a class="code" href="interface_a_n_g_table_view_cell.html">ANGTableViewCell</a>*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_inquiry_view_controller_8h.html" title="문의 화면">InquiryViewController.h</a>&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="code" href="category_a_n_g_view_controller_07_08.html">   16</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_n_g_view_controller.html">ANGViewController</a> ()</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="code" href="category_a_n_g_view_controller_07_08.html#a4beaa9024992c43872fbff6d4921ba67">   19</a></span>&#160;    NSArray *<a class="code" href="category_a_n_g_view_controller_07_08.html#a4beaa9024992c43872fbff6d4921ba67" title="설정 제목 array.">titleArray</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="code" href="category_a_n_g_view_controller_07_08.html#a42d00c0674f6da79e937bc8c844fdd20">   21</a></span>&#160;    NSArray *<a class="code" href="category_a_n_g_view_controller_07_08.html#a42d00c0674f6da79e937bc8c844fdd20" title="설정 소제목 array">subtitleArray</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="comment">// Dictionary로 하는게 나으려나? :( </span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">@implementation </span><a class="code" href="interface_a_n_g_view_controller.html">ANGViewController</a></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;- (void)viewDidLoad</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    [<span class="keyword">super</span> viewDidLoad];</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">//    self.navigationController.title = @&quot;설정&quot;;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;     [<span class="keyword">self</span>. navigationController setTitle:@&quot;설정&quot;];</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    titleArray = [[NSArray alloc] initWithObjects:@&quot;공지사항&quot;,@&quot;도움말&quot;,@&quot;문의하기&quot;,@&quot;알림설정&quot;,@&quot;기업관리&quot;,@&quot;서비스 탈퇴하기&quot;, nil];</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    subtitleArray = [[NSArray alloc] initWithObjects:@&quot; 관련 공지사항 확인&quot;,</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                                @&quot; 사용법 및 도움말 확인&quot;,</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                                @&quot;App 사용 불편사항 및 문의하기&quot;,</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                                @&quot; 사용법 및 도움말 확인&quot;,</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                                @&quot; 가입 기업 확인 및 관리&quot;,</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                                @&quot;가입된 개인정보를 지우고 서비스 탈퇴&quot;, nil];</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;- (void)didReceiveMemoryWarning</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    [<span class="keyword">super</span> didReceiveMemoryWarning];</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="comment">// Dispose of any resources that can be recreated.</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#pragma mark - TableViewDelegate</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor"></span>- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    NSLog(<span class="stringliteral">@&quot;numberofsection in tableview&quot;</span>);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    NSLog(<span class="stringliteral">@&quot;numberofrowsinsection : %d&quot;</span>, [titleArray count]);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">return</span> [titleArray count];</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    </div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordflow">if</span> (cell == nil) {</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        NSArray* nib= [[NSBundle mainBundle] loadNibNamed:@&quot;ANGTableViewCell&quot; owner:self options:nil];</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        cell = [nib objectAtIndex:0];</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="comment">//        [cell setDelegate:self];</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        </div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    </div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    cell.<a class="code" href="interface_a_n_g_table_view_cell.html#ac7afe567b6031ee1dd7f3e1664fdb0a4">titleLabel</a>.text = [titleArray objectAtIndex:[indexPath row]];</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    cell.<a class="code" href="interface_a_n_g_table_view_cell.html#a3e75d508ea7e616152a1f9dd809da21b">subtitleLabel</a>.text =  [subtitleArray objectAtIndex:[indexPath row]];</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">return</span> cell;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;}</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keyword">static</span> NSString *CellIdentifier = <span class="stringliteral">@&quot;ANGTableViewCell&quot;</span>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="interface_a_n_g_table_view_cell.html">ANGTableViewCell</a> *cell = (<a class="code" href="interface_a_n_g_table_view_cell.html">ANGTableViewCell</a>*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">if</span> (cell == nil) {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        NSArray* nib= [[NSBundle mainBundle] loadNibNamed:@&quot;ANGTableViewCell&quot; owner:self options:nil];</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        cell = [nib objectAtIndex:0];</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="comment">//        [cell setDelegate:self];</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    cell.<a class="code" href="interface_a_n_g_table_view_cell.html#ac7afe567b6031ee1dd7f3e1664fdb0a4">titleLabel</a>.text = [titleArray objectAtIndex:[indexPath row]];</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    cell.<a class="code" href="interface_a_n_g_table_view_cell.html#a3e75d508ea7e616152a1f9dd809da21b">subtitleLabel</a>.text =  [subtitleArray objectAtIndex:[indexPath row]];</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordflow">if</span> ([indexPath row] == 0) { </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <a class="code" href="interface_notices_view_controller.html">NoticesViewController</a> *viewController = [[<a class="code" href="interface_notices_view_controller.html">NoticesViewController</a> alloc]initWithNibName:@&quot;NoticesViewController&quot; bundle:[NSBundle mainBundle]];</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        [<span class="keyword">self</span>.navigationController pushViewController:viewController animated:YES];</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        </div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }<span class="keywordflow">else</span> <span class="keywordflow">if</span>([indexPath row] == 1){ </div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <a class="code" href="interface_help_view_controller.html">HelpViewController</a> *viewController = [[<a class="code" href="interface_help_view_controller.html">HelpViewController</a> alloc]initWithNibName:@&quot;HelpViewController&quot; bundle:[NSBundle mainBundle]];</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        [<span class="keyword">self</span>.navigationController pushViewController:viewController animated:YES];</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }<span class="keywordflow">else</span> <span class="keywordflow">if</span>([indexPath row] == 2){ <span class="comment">//문의하기</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <a class="code" href="interface_notices_view_controller.html">NoticesViewController</a> *viewController = [[<a class="code" href="interface_notices_view_controller.html">NoticesViewController</a> alloc]initWithNibName:@&quot;NoticesViewController&quot; bundle:[NSBundle mainBundle]];</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        [<span class="keyword">self</span>.navigationController pushViewController:viewController animated:YES];</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        </div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }<span class="keywordflow">else</span> <span class="keywordflow">if</span>([indexPath row] == 3){ </div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        UIActionSheet *alamActionSheet = [[UIActionSheet alloc]initWithTitle:@&quot;알림설정&quot;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                                    delegate:self</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                                    cancelButtonTitle:@&quot;취소&quot;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                                    destructiveButtonTitle:nil</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                                    otherButtonTitles:@&quot;소리&quot;,@&quot;진동&quot;,@&quot;소리+진동&quot;,@&quot;알림없음&quot; , nil];</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        alamActionSheet.actionSheetStyle = UIActionSheetStyleBlackOpaque;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        [alamActionSheet showInView:self.view];</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    }<span class="keywordflow">else</span> <span class="keywordflow">if</span>([indexPath row] == 4){ </div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <a class="code" href="interface_company_list_view_controller.html">CompanyListViewController</a> *viewController = [[<a class="code" href="interface_company_list_view_controller.html">CompanyListViewController</a> alloc]initWithNibName:@&quot;CompanyListViewController&quot; bundle:[NSBundle mainBundle]];</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        [<span class="keyword">self</span>.navigationController pushViewController:viewController animated:YES];</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        </div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    }<span class="keywordflow">else</span> <span class="keywordflow">if</span>([indexPath row] == 5){ </div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <a class="code" href="interface_drop_out_view_controller.html">DropOutViewController</a> *viewController = [[<a class="code" href="interface_drop_out_view_controller.html">DropOutViewController</a> alloc]initWithNibName:@&quot;DropOutViewController&quot; bundle:[NSBundle mainBundle]];</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        [<span class="keyword">self</span>.navigationController pushViewController:viewController animated:YES];</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        </div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;}</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordflow">return</span> 60;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">return</span> cell;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">if</span> ([indexPath row] == 0) { </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <a class="code" href="interface_notices_view_controller.html" title="TableViewDataSource와 Delegate를 상속받는다. /n.">NoticesViewController</a> *viewController = [[<a class="code" href="interface_notices_view_controller.html" title="TableViewDataSource와 Delegate를 상속받는다. /n.">NoticesViewController</a> alloc]initWithNibName:@&quot;NoticesViewController&quot; bundle:[NSBundle mainBundle]];</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        [<span class="keyword">self</span>.navigationController pushViewController:viewController animated:YES];</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }<span class="keywordflow">else</span> <span class="keywordflow">if</span>([indexPath row] == 1){ </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <a class="code" href="interface_help_view_controller.html">HelpViewController</a> *viewController = [[<a class="code" href="interface_help_view_controller.html">HelpViewController</a> alloc]initWithNibName:@&quot;HelpViewController&quot; bundle:[NSBundle mainBundle]];</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        [<span class="keyword">self</span>.navigationController pushViewController:viewController animated:YES];</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    }<span class="keywordflow">else</span> <span class="keywordflow">if</span>([indexPath row] == 2){ <span class="comment">//문의하기</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <a class="code" href="interface_inquiry_view_controller.html">InquiryViewController</a> *viewController = [[<a class="code" href="interface_inquiry_view_controller.html">InquiryViewController</a> alloc]initWithNibName:@&quot;InquiryViewController&quot; bundle:[NSBundle mainBundle]];</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        [<span class="keyword">self</span>.navigationController pushViewController:viewController animated:YES];</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        </div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }<span class="keywordflow">else</span> <span class="keywordflow">if</span>([indexPath row] == 3){ </div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        UIActionSheet *alamActionSheet = [[UIActionSheet alloc]initWithTitle:@&quot;알림설정&quot;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                                    delegate:self</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                                    cancelButtonTitle:@&quot;취소&quot;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                                    destructiveButtonTitle:nil</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                                    otherButtonTitles:@&quot;소리&quot;,@&quot;진동&quot;,@&quot;소리+진동&quot;,@&quot;알림없음&quot; , nil];</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        alamActionSheet.actionSheetStyle = UIActionSheetStyleBlackOpaque;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        [alamActionSheet showInView:self.view];</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }<span class="keywordflow">else</span> <span class="keywordflow">if</span>([indexPath row] == 4){ </div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <a class="code" href="interface_company_list_view_controller.html">CompanyListViewController</a> *viewController = [[<a class="code" href="interface_company_list_view_controller.html">CompanyListViewController</a> alloc]initWithNibName:@&quot;CompanyListViewController&quot; bundle:[NSBundle mainBundle]];</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        [<span class="keyword">self</span>.navigationController pushViewController:viewController animated:YES];</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    }<span class="keywordflow">else</span> <span class="keywordflow">if</span>([indexPath row] == 5){ </div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <a class="code" href="interface_drop_out_view_controller.html">DropOutViewController</a> *viewController = [[<a class="code" href="interface_drop_out_view_controller.html">DropOutViewController</a> alloc]initWithNibName:@&quot;DropOutViewController&quot; bundle:[NSBundle mainBundle]];</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        [<span class="keyword">self</span>.navigationController pushViewController:viewController animated:YES];</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        </div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    }</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;}</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">#pragma mark - Actionsheet delegate </span></div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor"></span>-(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordflow">switch</span> (buttonIndex) {</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordflow">case</span> 0:</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            NSLog(<span class="stringliteral">@&quot;0번&quot;</span>);</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <span class="keywordflow">case</span> 1:</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            NSLog(<span class="stringliteral">@&quot;1번&quot;</span>);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordflow">return</span> 60;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;}</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">#pragma mark - Actionsheet delegate </span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor"></span>-(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordflow">switch</span> (buttonIndex) {</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <span class="keywordflow">case</span> 0:</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            NSLog(<span class="stringliteral">@&quot;0번&quot;</span>);</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <span class="keywordflow">case</span> 2:</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            NSLog(<span class="stringliteral">@&quot;2번&quot;</span>);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <span class="keywordflow">case</span> 1:</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            NSLog(<span class="stringliteral">@&quot;1번&quot;</span>);</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="keywordflow">case</span> 3:</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            NSLog(<span class="stringliteral">@&quot;3번&quot;</span>);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="keywordflow">case</span> 2:</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            NSLog(<span class="stringliteral">@&quot;2번&quot;</span>);</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        </div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="keywordflow">case</span> 3:</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            NSLog(<span class="stringliteral">@&quot;3번&quot;</span>);</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    }</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;}</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        </div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    }</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;}</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="keyword">@end</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_704579e8490abbf4455f1d9423b98e9c.html">AngelViewPrac01</a></li><li class="navelem"><a class="el" href="_a_n_g_view_controller_8m.html">ANGViewController.m</a></li>
-    <li class="footer">생성시간 : 수 10월 17 2012 15:48:01, 프로젝트명 : AngelViewPrac01, 생성자 : 
+    <li class="footer">생성시간 : 수 10월 17 2012 17:00:36, 프로젝트명 : AngelViewPrac01, 생성자 : 
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

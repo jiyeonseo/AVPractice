@@ -34,4 +34,45 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - tableView delegate
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    NSLog(@"numberofsection in tableview");
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+//    NSLog(@"numberofrowsinsection : %d", [titleArray count]);
+    
+    return 1;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+//    static NSString *CellIdentifier = @"ANGTableViewCell";
+//    ANGTableViewCell *cell = (ANGTableViewCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+//    
+//    
+//    if (cell == nil) {
+//        NSArray* nib= [[NSBundle mainBundle] loadNibNamed:@"ANGTableViewCell" owner:self options:nil];
+//	    cell = [nib objectAtIndex:0];
+//        //        [cell setDelegate:self];
+//        
+//    }
+//    
+//    cell.titleLabel.text = [titleArray objectAtIndex:[indexPath row]];
+//    cell.subtitleLabel.text =  [subtitleArray objectAtIndex:[indexPath row]];
+//    
+//    return cell;
+    
+//    이것도다커스텀셀해줘말어';;;;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+ 
+}
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 60;
+}
+
 @end
