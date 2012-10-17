@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AFB9C41162E46F700052CEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFB9C40162E46F700052CEC /* UIKit.framework */; };
+		3AFB9C43162E46F700052CEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFB9C42162E46F700052CEC /* Foundation.framework */; };
+		3AFB9C45162E46F700052CEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFB9C44162E46F700052CEC /* CoreGraphics.framework */; };
+		3AFB9C4B162E46F700052CEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB9C49162E46F700052CEC /* InfoPlist.strings */; };
+		3AFB9C4D162E46F700052CEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB9C4C162E46F700052CEC /* main.m */; };
+		3AFB9C51162E46F700052CEC /* ANGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB9C50162E46F700052CEC /* ANGAppDelegate.m */; };
+		3AFB9C53162E46F700052CEC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB9C52162E46F700052CEC /* Default.png */; };
+		3AFB9C55162E46F700052CEC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB9C54162E46F700052CEC /* Default@2x.png */; };
+		3AFB9C57162E46F700052CEC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB9C56162E46F700052CEC /* Default-568h@2x.png */; };
+		3AFB9C5A162E46F700052CEC /* ANGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB9C59162E46F700052CEC /* ANGViewController.m */; };
+		3AFB9C5D162E46F700052CEC /* ANGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB9C5B162E46F700052CEC /* ANGViewController.xib */; };
+		3AFB9C65162E47CF00052CEC /* ANGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB9C64162E47CF00052CEC /* ANGTableViewCell.m */; };
+		3AFB9C67162E47F300052CEC /* ANGTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB9C66162E47F300052CEC /* ANGTableViewCell.xib */; };
+		3AFB9C6B162E48B100052CEC /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB9C69162E48B100052CEC /* new.png */; };
+		3AFB9C6C162E48B100052CEC /* new@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB9C6A162E48B100052CEC /* new@2x.png */; };
+		3AFB9C88162E751600052CEC /* DropOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB9C86162E751600052CEC /* DropOutViewController.m */; };
+		3AFB9C89162E751600052CEC /* DropOutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB9C87162E751600052CEC /* DropOutViewController.xib */; };
+		3AFB9C8D162E754700052CEC /* NoticesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB9C8B162E754700052CEC /* NoticesViewController.m */; };
+		3AFB9C8E162E754700052CEC /* NoticesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB9C8C162E754700052CEC /* NoticesViewController.xib */; };
+		3AFB9C92162E755600052CEC /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB9C90162E755500052CEC /* HelpViewController.m */; };
+		3AFB9C93162E755600052CEC /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB9C91162E755500052CEC /* HelpViewController.xib */; };
+		3AFB9C97162E756400052CEC /* CompanyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB9C95162E756400052CEC /* CompanyListViewController.m */; };
+		3AFB9C98162E756400052CEC /* CompanyListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFB9C96162E756400052CEC /* CompanyListViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3AFB9C3C162E46F700052CEC /* AngelViewPrac01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngelViewPrac01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFB9C40162E46F700052CEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3AFB9C42162E46F700052CEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3AFB9C44162E46F700052CEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3AFB9C48162E46F700052CEC /* AngelViewPrac01-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AngelViewPrac01-Info.plist"; sourceTree = "<group>"; };
+		3AFB9C4A162E46F700052CEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3AFB9C4C162E46F700052CEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AFB9C4E162E46F700052CEC /* AngelViewPrac01-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AngelViewPrac01-Prefix.pch"; sourceTree = "<group>"; };
+		3AFB9C4F162E46F700052CEC /* ANGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANGAppDelegate.h; sourceTree = "<group>"; };
+		3AFB9C50162E46F700052CEC /* ANGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANGAppDelegate.m; sourceTree = "<group>"; };
+		3AFB9C52162E46F700052CEC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3AFB9C54162E46F700052CEC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3AFB9C56162E46F700052CEC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3AFB9C58162E46F700052CEC /* ANGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANGViewController.h; sourceTree = "<group>"; };
+		3AFB9C59162E46F700052CEC /* ANGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANGViewController.m; sourceTree = "<group>"; };
+		3AFB9C5C162E46F700052CEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ANGViewController.xib; sourceTree = "<group>"; };
+		3AFB9C63162E47CF00052CEC /* ANGTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANGTableViewCell.h; sourceTree = "<group>"; };
+		3AFB9C64162E47CF00052CEC /* ANGTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANGTableViewCell.m; sourceTree = "<group>"; };
+		3AFB9C66162E47F300052CEC /* ANGTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANGTableViewCell.xib; sourceTree = "<group>"; };
+		3AFB9C69162E48B100052CEC /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
+		3AFB9C6A162E48B100052CEC /* new@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new@2x.png"; sourceTree = "<group>"; };
+		3AFB9C85162E751600052CEC /* DropOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropOutViewController.h; sourceTree = "<group>"; };
+		3AFB9C86162E751600052CEC /* DropOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropOutViewController.m; sourceTree = "<group>"; };
+		3AFB9C87162E751600052CEC /* DropOutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropOutViewController.xib; sourceTree = "<group>"; };
+		3AFB9C8A162E754700052CEC /* NoticesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticesViewController.h; sourceTree = "<group>"; };
+		3AFB9C8B162E754700052CEC /* NoticesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticesViewController.m; sourceTree = "<group>"; };
+		3AFB9C8C162E754700052CEC /* NoticesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoticesViewController.xib; sourceTree = "<group>"; };
+		3AFB9C8F162E755500052CEC /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		3AFB9C90162E755500052CEC /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		3AFB9C91162E755500052CEC /* HelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpViewController.xib; sourceTree = "<group>"; };
+		3AFB9C94162E756400052CEC /* CompanyListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyListViewController.h; sourceTree = "<group>"; };
+		3AFB9C95162E756400052CEC /* CompanyListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyListViewController.m; sourceTree = "<group>"; };
+		3AFB9C96162E756400052CEC /* CompanyListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompanyListViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AFB9C39162E46F700052CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFB9C41162E46F700052CEC /* UIKit.framework in Frameworks */,
+				3AFB9C43162E46F700052CEC /* Foundation.framework in Frameworks */,
+				3AFB9C45162E46F700052CEC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AFB9C31162E46F700052CEC = {
+			isa = PBXGroup;
+			children = (
+				3AFB9C46162E46F700052CEC /* AngelViewPrac01 */,
+				3AFB9C3F162E46F700052CEC /* Frameworks */,
+				3AFB9C3D162E46F700052CEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AFB9C3D162E46F700052CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB9C3C162E46F700052CEC /* AngelViewPrac01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AFB9C3F162E46F700052CEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB9C40162E46F700052CEC /* UIKit.framework */,
+				3AFB9C42162E46F700052CEC /* Foundation.framework */,
+				3AFB9C44162E46F700052CEC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AFB9C46162E46F700052CEC /* AngelViewPrac01 */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB9C75162E51F600052CEC /* Preference */,
+				3AFB9C4F162E46F700052CEC /* ANGAppDelegate.h */,
+				3AFB9C50162E46F700052CEC /* ANGAppDelegate.m */,
+				3AFB9C58162E46F700052CEC /* ANGViewController.h */,
+				3AFB9C59162E46F700052CEC /* ANGViewController.m */,
+				3AFB9C5B162E46F700052CEC /* ANGViewController.xib */,
+				3AFB9C63162E47CF00052CEC /* ANGTableViewCell.h */,
+				3AFB9C64162E47CF00052CEC /* ANGTableViewCell.m */,
+				3AFB9C66162E47F300052CEC /* ANGTableViewCell.xib */,
+				3AFB9C47162E46F700052CEC /* Supporting Files */,
+			);
+			path = AngelViewPrac01;
+			sourceTree = "<group>";
+		};
+		3AFB9C47162E46F700052CEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB9C68162E489E00052CEC /* image */,
+				3AFB9C48162E46F700052CEC /* AngelViewPrac01-Info.plist */,
+				3AFB9C49162E46F700052CEC /* InfoPlist.strings */,
+				3AFB9C4C162E46F700052CEC /* main.m */,
+				3AFB9C4E162E46F700052CEC /* AngelViewPrac01-Prefix.pch */,
+				3AFB9C52162E46F700052CEC /* Default.png */,
+				3AFB9C54162E46F700052CEC /* Default@2x.png */,
+				3AFB9C56162E46F700052CEC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AFB9C68162E489E00052CEC /* image */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB9C69162E48B100052CEC /* new.png */,
+				3AFB9C6A162E48B100052CEC /* new@2x.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		3AFB9C75162E51F600052CEC /* Preference */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB9C85162E751600052CEC /* DropOutViewController.h */,
+				3AFB9C86162E751600052CEC /* DropOutViewController.m */,
+				3AFB9C87162E751600052CEC /* DropOutViewController.xib */,
+				3AFB9C8A162E754700052CEC /* NoticesViewController.h */,
+				3AFB9C8B162E754700052CEC /* NoticesViewController.m */,
+				3AFB9C8C162E754700052CEC /* NoticesViewController.xib */,
+				3AFB9C8F162E755500052CEC /* HelpViewController.h */,
+				3AFB9C90162E755500052CEC /* HelpViewController.m */,
+				3AFB9C91162E755500052CEC /* HelpViewController.xib */,
+				3AFB9C94162E756400052CEC /* CompanyListViewController.h */,
+				3AFB9C95162E756400052CEC /* CompanyListViewController.m */,
+				3AFB9C96162E756400052CEC /* CompanyListViewController.xib */,
+			);
+			name = Preference;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AFB9C3B162E46F700052CEC /* AngelViewPrac01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFB9C60162E46F700052CEC /* Build configuration list for PBXNativeTarget "AngelViewPrac01" */;
+			buildPhases = (
+				3AFB9C38162E46F700052CEC /* Sources */,
+				3AFB9C39162E46F700052CEC /* Frameworks */,
+				3AFB9C3A162E46F700052CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AngelViewPrac01;
+			productName = AngelViewPrac01;
+			productReference = 3AFB9C3C162E46F700052CEC /* AngelViewPrac01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AFB9C33162E46F700052CEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ANG;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jiyeon Seo";
+			};
+			buildConfigurationList = 3AFB9C36162E46F700052CEC /* Build configuration list for PBXProject "AngelViewPrac01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3AFB9C31162E46F700052CEC;
+			productRefGroup = 3AFB9C3D162E46F700052CEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AFB9C3B162E46F700052CEC /* AngelViewPrac01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AFB9C3A162E46F700052CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFB9C4B162E46F700052CEC /* InfoPlist.strings in Resources */,
+				3AFB9C53162E46F700052CEC /* Default.png in Resources */,
+				3AFB9C55162E46F700052CEC /* Default@2x.png in Resources */,
+				3AFB9C57162E46F700052CEC /* Default-568h@2x.png in Resources */,
+				3AFB9C5D162E46F700052CEC /* ANGViewController.xib in Resources */,
+				3AFB9C67162E47F300052CEC /* ANGTableViewCell.xib in Resources */,
+				3AFB9C6B162E48B100052CEC /* new.png in Resources */,
+				3AFB9C6C162E48B100052CEC /* new@2x.png in Resources */,
+				3AFB9C89162E751600052CEC /* DropOutViewController.xib in Resources */,
+				3AFB9C8E162E754700052CEC /* NoticesViewController.xib in Resources */,
+				3AFB9C93162E755600052CEC /* HelpViewController.xib in Resources */,
+				3AFB9C98162E756400052CEC /* CompanyListViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AFB9C38162E46F700052CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFB9C4D162E46F700052CEC /* main.m in Sources */,
+				3AFB9C51162E46F700052CEC /* ANGAppDelegate.m in Sources */,
+				3AFB9C5A162E46F700052CEC /* ANGViewController.m in Sources */,
+				3AFB9C65162E47CF00052CEC /* ANGTableViewCell.m in Sources */,
+				3AFB9C88162E751600052CEC /* DropOutViewController.m in Sources */,
+				3AFB9C8D162E754700052CEC /* NoticesViewController.m in Sources */,
+				3AFB9C92162E755600052CEC /* HelpViewController.m in Sources */,
+				3AFB9C97162E756400052CEC /* CompanyListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3AFB9C49162E46F700052CEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AFB9C4A162E46F700052CEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3AFB9C5B162E46F700052CEC /* ANGViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AFB9C5C162E46F700052CEC /* en */,
+			);
+			name = ANGViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AFB9C5E162E46F700052CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3AFB9C5F162E46F700052CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AFB9C61162E46F700052CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AngelViewPrac01/AngelViewPrac01-Prefix.pch";
+				INFOPLIST_FILE = "AngelViewPrac01/AngelViewPrac01-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3AFB9C62162E46F700052CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AngelViewPrac01/AngelViewPrac01-Prefix.pch";
+				INFOPLIST_FILE = "AngelViewPrac01/AngelViewPrac01-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AFB9C36162E46F700052CEC /* Build configuration list for PBXProject "AngelViewPrac01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFB9C5E162E46F700052CEC /* Debug */,
+				3AFB9C5F162E46F700052CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AFB9C60162E46F700052CEC /* Build configuration list for PBXNativeTarget "AngelViewPrac01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFB9C61162E46F700052CEC /* Debug */,
+				3AFB9C62162E46F700052CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AFB9C33162E46F700052CEC /* Project object */;
+}
