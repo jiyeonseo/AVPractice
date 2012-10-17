@@ -1,10 +1,8 @@
-//
-//  ANGViewController.m
-//  AngelViewPrac01
-//
-//  Created by Jiyeon Seo on 12. 10. 17..
-//  Copyright (c) 2012년 Jiyeon Seo. All rights reserved.
-//
+/**
+ @file ANGViewController.m
+ @date 2012/10/17
+ @author 서지연(jiyeonseo@uangel.com)
+ @brief ANGViewController 의 소스  */
 
 #import "ANGViewController.h"
 #import "ANGTableViewCell.h"
@@ -126,10 +124,10 @@
             NSLog(@"1번");
             break;
         case 2:
-                        NSLog(@"2번");
+            NSLog(@"2번");
             break;
         case 3:
-                        NSLog(@"3번");
+            NSLog(@"3번");
             break;
         
         default:

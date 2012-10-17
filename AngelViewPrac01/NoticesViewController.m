@@ -1,10 +1,9 @@
-//
-//  NoticesViewController.m
-//  AngelViewPrac01
-//
-//  Created by Jiyeon Seo on 12. 10. 17..
-//  Copyright (c) 2012년 Jiyeon Seo. All rights reserved.
-//
+/**
+ @file NoticesViewController.m
+ @date 2012/10/17
+ @author 서지연(jiyeonseo@uangel.com)
+ @brief 공지사항 화면
+ */
 
 #import "NoticesViewController.h"
 

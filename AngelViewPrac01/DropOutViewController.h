@@ -1,10 +1,9 @@
-//
-//  DropOutViewController.h
-//  AngelViewPrac01
-//
-//  Created by Jiyeon Seo on 12. 10. 17..
-//  Copyright (c) 2012년 Jiyeon Seo. All rights reserved.
-//
+/**
+ @file DropOutViewController.h
+ @date 2012/10/17
+ @author 서지연(jiyeonseo@uangel.com)
+ @brief 서비스 탈퇴 화면
+ */
 
 #import <UIKit/UIKit.h>
 
